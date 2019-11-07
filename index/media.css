@@ -1,0 +1,131 @@
+@media(max-width: 500px) {
+
+.nav-center{
+  display: none;
+}
+
+.sticky{
+  padding-top: 30px;
+
+}
+
+nav img{
+  width: 12%;
+  transform: translate(0px, -30px);
+}
+
+nav span{
+  font-size: 50px;
+  transform: translate(0px, -30px);
+}
+
+.menu-wrap  {
+  margin-left: 320px;
+  display: block;
+}
+
+.logo{
+  margin-left: 30px;
+  font-size: 55px;
+}
+.row1{
+  grid-template-columns: 1fr;
+  margin: 0px;
+
+}
+
+.info-text{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.blog-text{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.row2{
+grid-template-columns: 1fr;
+margin: 0px;
+}
+
+.edit-text{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.web-text{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.foot{
+  margin-left: 120px;
+}
+
+.button{
+  width: 24%;
+}
+
+.insta{
+  width: 24%;
+}
+
+.modal{
+  height: 100%;
+  width: 100%;
+  /* padding: 100px; */
+}
+
+.modal-content{
+  margin-top: 100px;
+  width: 75%;
+  /* padding: 20%; */
+  
+}
+
+.bitmoji{
+  width: 100%;
+  
+}
+}
+
+@media(min-width: 900px) and (max-width: 1024){
+  .nav-center{
+    margin-left: 550px;
+    /* float: right */
+  }
+
+  nav img{
+    width: 3%;
+    transform: translate(0px, -10px);
+  }
+
+  .logo{
+    margin-left: 230px;
+  }
+
+  .row1{
+    margin: 0 00px;
+  }
+
+  .row2{
+    margin: 100px 0;
+  }
+
+  .button{
+    width: 10%;
+  }
+
+  .insta{
+    width: 10%;
+  }
+
+  .foot{
+    margin-left: 445px;
+  }
+}
