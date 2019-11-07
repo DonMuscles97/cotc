@@ -1,0 +1,124 @@
+@media(max-width: 500px) {
+
+  .nav-center{
+    display: none;
+  }
+  
+  .sticky{
+    padding-top: 30px;
+  
+  }
+  
+  nav img{
+    width: 12%;
+    transform: translate(0px, -30px);
+  }
+  
+  nav span{
+    font-size: 50px;
+    transform: translate(0px, -30px);
+  }
+
+  .menu-wrap  {
+    margin-left: 320px;
+    display: block;
+  }
+
+  .about-phrase{
+    display: none;
+
+  }
+
+  .about-mobile{
+    display: block;
+  }
+
+  .about-head{
+    margin-left: 50px;
+    padding: 100px 90px;
+  }
+
+  .grid{
+    grid-template-columns: 1fr;
+  }
+
+  .pic-container{
+    display: none;
+  }
+
+  .signature{
+    margin-left: 170px;
+    font-size: 25px;
+  }
+
+  .text{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  .text-head{
+    margin-top: 20px;
+  }
+
+  .grid2{
+    margin-top: 50px;
+  }
+
+  .right-head{
+    font-size: 40px;
+  }
+
+  .right-text{
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .grid-right{
+    margin-bottom: 50px;
+  }
+
+
+}
+
+@media(min-width: 900px) and (max-width: 1024px) {
+  .nav-center{
+    margin-left: 550px;
+  }
+
+  nav img{
+    width: 3%;
+    transform: translate(0px, -10px);
+  }
+
+  .about-head{
+    padding: 100px 90px;
+    margin-left: 150px;
+  }
+
+  .about-phrase{
+    font-size: 40px;
+  }
+
+  .pic{
+    width: 90%;
+  }
+
+  .offset{
+    height: 300px;
+    width: 250px
+  }
+
+  .text{
+    font-size: 20px;
+  }
+
+  .signature{
+    margin-left: 270px;
+  }
+
+  .right-text{
+    font-size: 25px;
+    padding: 0px 50px;
+  }
+}

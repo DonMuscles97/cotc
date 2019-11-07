@@ -1,0 +1,381 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* centers the nav bar on the page */
+.nav-center{
+  margin-left: 1130px;
+  /* margin-top: 10px; */
+
+}
+
+nav img{
+  transform: translate(0px, -10px);
+}
+
+/* COTC text in nav bar */
+nav span{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  transform: translate(0px, -15px);
+  color:black;
+}
+/* makes nav bar sticky */
+.sticky{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background: white;
+  border-bottom: 1px black solid;
+  
+}
+
+
+/* code for the hover effect of the nav bar */
+ #nav-hover:hover{
+  background: white;
+  color: darkorange;
+   border-top: royalblue solid 2px; 
+  border-left: none;
+  border-right: none;
+
+}
+
+
+
+/* code for the nav links */
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+ 
+
+}
+/* code that puts the nav bar next to each other */
+.nav-item{
+  float: left;
+  list-style: none;
+  padding: 0px;
+  
+  
+}
+
+/* Drop down for the  services section */
+ul li ul li{
+  display: none;
+
+}
+
+ul li:hover ul li{
+  display: block;
+  
+  
+}
+
+.drop-menu{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.drop-down{
+  list-style: none;
+  padding-top:21px;
+  position: absolute;
+}
+
+.drop-link1{
+  text-decoration: none;
+  color: black;
+  padding: 10px 26px;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.drop-link2{
+  text-decoration: none;
+  color: black;
+  padding: 10px 16px;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.about-phrase{
+  display: inline-block;
+  font-size: 60px;
+  margin-top: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.about-mobile{
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: none;
+}
+
+.about-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* border: 2px solid black; */
+  display: inline-block;
+  margin-top: 50px;
+  /* margin-left: 800px; */
+  padding: 200px 200px;
+  border-radius: 250px;
+  background: crimson;
+  font-size: 50px;
+  color: white;
+  margin-left: 300px;
+}
+
+.grid{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+  /* border: solid black 2px; */
+}
+
+.pic-container{
+  /* border: solid 2px black; */
+}
+
+.pic{
+  /* margin-top: 200px; */
+  /* margin-left: 200px; */
+  border: 2px solid slategray;
+  border-radius: 50px;
+  transform: translate(100px, 100px);
+  ;
+}
+
+.offset{
+  display: inline-block;
+  background: slategray;
+  height: 500px;
+  width: 400px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+.text-head{
+  color: crimson;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.text{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: slategray;
+  text-indent: 30px;
+  /* padding-bottom: 150px; */
+  margin-bottom: 30px;
+}
+
+.signature{
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+
+}
+
+.grid2{
+  /* display: grid; */
+  /* grid-template-columns: 1fr 2fr; */
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  
+}
+
+.cotc-pic{
+  /* margin-left: 500px; */
+  border-radius: 10px;
+  
+}
+
+.pic2{
+  border-radius: 20px;
+}
+
+.grid-right{
+  /* border: black solid 2px; */
+  margin-bottom: 100px;
+}
+
+.right-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: crimson;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.right-text{
+  color: slategray;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0px 150px;
+  font-size: 30px;
+  text-indent: 30px;
+}
+
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+
+}
+
+.menu-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.menu-wrap .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.menu-wrap .hamburger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .hamburger > div {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after{
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+.menu-wrap .hamburger > div:after{
+  top: 10px;
+}
+
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* show menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div{
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.menu-wrap .menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu > div {
+  background: var(--overlay-color);
+  border-radius: 50%;
+  width: 250vw;
+  height: 250vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transform: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div{
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
+  
+}
