@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Srisakdi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="index/media.css" rel="stylesheet" type="text/css">
+  <title>CreamOfTheCrop</title>
+</head>
+<body>
+  <!-- Code for the Nav bar -->
+  <nav class="sticky">
+    <img class="nav-item"src="index\Langston.png" alt="Langston the duck" width="2%">
+    <span class="nav-item">COTC</span>
+    <ul class="nav-center">
+      <li class="nav-item"><a class="nav-link" id="nav-hover" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" id="nav-hover" href="blog\blog.html">Blog</a></li>
+      <li class="nav-item"><a class="drop-menu" id="nav-hover" href="#">Services</a>
+        <ul id="drop-ul">
+          <li class="drop-down"><a class="drop-link1" id="nav-hover" href="web\web.html">Web</a>
+            <ul id="drop-ul">
+              <li class="drop-down"><a class="drop-link2" id="nav-hover" href="edit\edit.html">Editing</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link" id="nav-hover" href="contact\contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" id="nav-hover" href="about\about.html">About</a></li>
+    </ul>
+
+    <!-- Nav hamburger menu for mobile -->
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#"></a>Home</li>
+              <li><a href="blog\blog.html">Blog</a></li>
+              <li><a href="web\web.html">Web</a></li>
+              <li><a href="edit\edit.html">Editing</a></li>
+              <li><a href="contact\contact.html">Contact</a></li>
+              <li><a href="about\about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- logo image c -->
+
+  <div class="logo-img">
+    <p class="logo">
+      <span style="color: royalblue">C</span>ream<span style="color: crimson">O</span>f<span style="color: purple">T</span>he<span style="color: green">C</span>rop</p>
+      <div class="arrow"></div>
+  </div>
+
+<!-- about and blog section -->
+  <div class="row1">
+
+    <div class="info">
+      <h1 id="head"><a class="info-head" href="about\about.html">Info</a></h1>
+      <p class="info-text">Hey what's up my name is Don and this is my website. If you would like to know more information about me or the website itsef you can just click the info button above and it will take you to the about page. </p>
+    </div>
+
+    <div class="blog">
+      <h1 id="head"><a class="blog-head" href="blog\blog.html">Blog</a></h1>
+      <p class="blog-text">This is pretty much the part of the website that holds all of my random thoughts haha. Enter at your own peril.</p>
+    </div>
+  </div>
+
+  <div class="row2">
+
+      <div class="edit">
+        <h1 id="head"><a class="edit-head" href="edit\edit.html">Edit</a></h1>
+        <p class="edit-text">Video editing is one of the many services that I provide even if you aren't trying to receive my services it woulld mean a lot if you would take a look and check out some of the projects that ive worked on!</p>
+        <span class="line"></span>
+      </div>
+  
+      <div class="web">
+        <h1 id="head"><a class="web-head" href="web\web.html">Web</a></h1>
+        <p class="web-text">More will be explained when you follow the link but web services is also one of the services that I provide which includes consulting, web design, hosting and much more take a look!</p>
+      </div>
+    </div>
+ 
+    <footer class="foot">
+        <img src="index/snap.png" id="modalBtn" class="button"alt="snap ghost" width="4%">
+
+        <div id="simpleModal" class="modal">
+          <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <img class="bitmoji" src="index/bitmoji.jpg" alt="bitmoji">
+          </div>
+        </div>
+      
+        <a href="https://www.instagram.com/don_muscles/?hl=en"><img class="insta" src="index/insta.png" alt="instagram" width="4%"></a>
+  </footer>
+    <script src="index/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,561 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* centers the nav bar on the page */
+
+.nav-center{
+  margin-left: 0px;
+
+}
+
+nav img{
+  transform: translate(0px, -10px);
+}
+
+/* COTC text in nav bar */
+nav span{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  transform: translate(0px, -15px);
+  color:black;
+}
+/* makes nav bar sticky */
+.sticky{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background: white;
+  border-bottom: 1px black solid;
+}
+
+
+/* code for the hover effect of the nav bar */
+ #nav-hover:hover{
+  background: white;
+  color: darkorange;
+   border-top: royalblue solid 2px; 
+  border-left: none;
+  border-right: none;
+
+}
+
+
+
+/* code for the nav links */
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+ 
+
+}
+/* code that puts the nav bar next to each other */
+.nav-item{
+  float: left;
+  list-style: none;
+  padding: 0px;
+  
+  
+}
+
+/* Drop down for the  services section */
+ul li ul li{
+  display: none;
+
+}
+
+ul li:hover ul li{
+  display: block;
+  
+  
+}
+
+.drop-menu{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.drop-down{
+  list-style: none;
+  padding-top:21px;
+  position: absolute;
+}
+
+.drop-link1{
+  text-decoration: none;
+  color: black;
+  padding: 10px 26px;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.drop-link2{
+  text-decoration: none;
+  color: black;
+  padding: 10px 16px;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/* The background image for the logo portion of the page */
+.logo-img{
+  background-image: url(index/daylight-environment-forest-459225.jpg);
+  min-height: 750px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 500px; */
+  margin-bottom: 100px;
+  
+ 
+  
+}
+
+
+/* The Cream of the crop text */
+.logo{
+  
+  /* transform: translate(0px, 300px); */
+  text-align: center;
+  font-size: 65px;
+  /* color: blue; */
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: black 2px solid;
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 300px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.8);
+  
+}
+
+.arrow{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arrow::after{
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 5px solid mediumaquamarine;
+  border-bottom: 5px solid mediumaquamarine;
+  transform: translate(0px, 275px) rotate(45deg);
+  animation: 3s arrow infinite ease;
+
+}
+
+@keyframes arrow {
+  0%, 100% {
+      top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 150px;
+  position: relative;
+}
+
+#head{
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+/* info section */
+.info{
+  /* border: black solid 2px; */
+}
+
+.info-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: slategray;
+  border-radius: 100px;
+  padding: 50px;
+  /* position: absolute; */
+ 
+
+}
+
+.info-head:hover{
+  /* font-size:55px; */
+  background: crimson;
+  transition: 1s;
+  /* border-radius: 20px; */
+  
+}
+
+.info-text{
+  margin-top: 75px;
+  /* padding: 0px 80px; */
+  margin-left: 80px;
+  margin-right: 80px;
+  text-indent: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: crimson solid 5px;
+ 
+}
+
+
+/* end of info section */
+/* Blog section */
+
+.blog{
+  /* border: black solid 2px; */
+}
+
+.blog-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: slategray;
+  border-radius: 100px;
+  padding: 50px;
+}
+
+.blog-head:hover{
+  /* font-size:55px; */
+  background: green;
+  transition: 1s;
+  /* border-radius: 20px; */
+}
+
+.blog-text{
+  margin-top: 75px;
+  padding-bottom: 70px;
+  text-indent: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  border-bottom: green solid 5px;
+  
+}
+/* end of the blog section */
+
+.row2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px;
+}
+
+/* Edit section */
+
+.edit{
+  /* border: solid 2px black; */
+}
+
+.edit-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: slategray;
+  border-radius: 100px;
+  padding: 50px;
+}
+
+.edit-head:hover{
+  /* font-size:55px; */
+  background: royalblue;
+  transition: 1s;
+  /* border-radius: 20px; */
+}
+
+.edit-text{
+  margin-top: 75px;
+  padding-bottom: 70px;
+  text-indent: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  border-bottom: royalblue solid 5px;
+}
+
+.web{
+  /* border: solid black 2px; */
+}
+
+.web-head{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: slategray;
+  border-radius: 100px;
+  padding: 50px;
+}
+
+.web-head:hover{
+  /* font-size:55px; */
+  background: purple;
+  transition: 1s;
+  /* border-radius: 20px; */
+}
+
+.web-text{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 75px;
+  text-indent: 40px;
+  padding-bottom: 95px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 20px;
+  border-bottom: 5px solid purple;
+}
+
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+
+}
+
+.menu-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.menu-wrap .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.menu-wrap .hamburger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .hamburger > div {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after{
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+.menu-wrap .hamburger > div:after{
+  top: 10px;
+}
+
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* show menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div{
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.menu-wrap .menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu > div {
+  background: var(--overlay-color);
+  border-radius: 50%;
+  width: 250vw;
+  height: 250vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transform: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div{
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
+  
+}
+
+.foot{
+  float: left;
+  list-style: none;
+  margin-left: 700px;
+}
+
+/* code for modal */
+
+.button{
+  
+  border-radius: 75px;
+  border: solid 2px black;
+  width: 7%;
+  display: inline-block;
+  
+}
+
+.button:hover{
+  
+  opacity: .7;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5) ;
+}
+
+.modal-content{
+  background-color: white;
+  margin: 3% auto;
+  /* padding: 50px; */
+  width: 25%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),  0 7px 20px 0 rgba(0,0,0,0.2);
+  animation-name:modalopen;
+  animation-duration: 1s;
+}
+
+@keyframes modalopen{
+  from{opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+.closeBtn{
+  color: lightgrey;
+  float: right;
+  font-size: 30px;
+  color: red;
+  
+  
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.insta{
+  border-radius: 50px;
+  border: 2px solid black;
+  list-style: none;
+  display: inline-block;
+  width: 7%;
+}
+
+.insta:hover{
+  opacity: .7;
+  transition: .5s;
+}
