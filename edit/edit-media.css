@@ -1,0 +1,215 @@
+@media(max-width: 500px) {
+
+  .nav-center{
+    display: none;
+  }
+  
+  .sticky{
+    padding-top: 30px;
+  
+  }
+  
+  nav img{
+    width: 12%;
+    transform: translate(0px, -30px);
+  }
+  
+  nav span{
+    font-size: 50px;
+    transform: translate(0px, -30px);
+  }
+
+  .menu-wrap  {
+    margin-left: 320px;
+    display: block;
+  }
+
+  .edit-head{
+    margin-left: 60px;
+    padding: 100px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .edit-phrase{
+    margin-left: 0px;
+    font-size: 40px;
+  }
+
+  .row1{
+    grid-template-columns: 1fr;
+  }
+
+  .header{
+    margin-left:150px;
+  }
+
+  .edit-txt{
+    margin: 5px;
+  }
+
+  .rate-head{
+    margin-left: 150px;
+  }
+
+  .rate-txt{
+    margin: 5px;
+  }
+
+  .button0{
+    margin-left: 40px;
+  }
+
+  .row2{
+    grid-template-columns: 1fr;
+  }
+
+  .amv{
+    margin-left: 110px;
+    margin-bottom: 0px;
+  }
+
+  .button{
+    margin-left: 110px;
+    margin-bottom: 70px;
+  }
+
+  .modal{
+    height: 100%;
+  }
+
+  .modal-content{
+    height: 70%;
+    width: 100%;
+    padding: 40px;
+    margin: 10% auto;
+
+  }
+
+  .afro{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .halo{
+    margin-left: 110px;
+  }
+
+  .button2{
+    margin-left: 110px;
+    margin-bottom: 70px;
+  }
+
+  .modal2{
+    height: 100%;
+  }
+
+  .modal-content2{
+    height: 70%;
+    width: 100%;
+    padding: 40px;
+    margin: 10% auto;
+
+  
+
+  }
+
+  .halo5{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .trailer{
+    margin-left: 120px;
+    
+  }
+
+  .button3{
+    margin-left: 120px;
+  }
+
+  .modal3{
+    height: 100%;
+  }
+
+  .modal-content3{
+    height: 70%;
+    width: 100%;
+    padding: 40px;
+    margin: 10% auto;
+
+  }
+
+  .don-video{
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media(min-width: 900px) and (max-width: 1024px){
+  
+
+  .nav-center{
+    margin-left: 550px;
+  }
+
+  nav img{
+    width: 3%;
+    transform: translate(0px, -10px);
+  }
+
+  .edit-phrase{
+    margin-left: 100px;
+    font-size: 30px;
+  }
+
+  .header{
+    font-size: 40px;
+    margin-left: 200px;
+  }
+
+  .edit-txt{
+    margin: 0 20px;
+    font-size: 15px;
+  }
+
+  .rate-head{
+    font-size: 40px;
+    margin-left: 200px;
+  }
+  
+  .rate-txt{
+    margin: 0 20px;
+    font-size: 15px;
+  }
+
+  .button0{
+    margin-left: 100px;
+  }
+
+  .amv{
+    margin-left: 100px
+  }
+
+  .button{
+    margin-left: 100px;
+  }
+
+  .halo{
+    margin-left: 100px;
+  }
+
+  .button2{
+    margin-left: 100px;
+  }
+
+  .trailer{
+    margin-left: 100px;
+  }
+
+  .button3{
+    margin-left: 100px;
+    margin-top: 25px;
+  }
+}
